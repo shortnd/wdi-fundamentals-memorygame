@@ -1,11 +1,16 @@
 h1 {
 	color: rgb(2,132,130);
+	text-align: center;
 }
 h2 {
 	color: #ffd700;
+	text-align: center;
+}
+p {
+	text-align: center;
 }
 .board {
-	height: 50%;
+	height: 80%;
 	width: 50%;
 	display: inline-block;
 }
@@ -33,6 +38,7 @@ nav a {
 	padding: 35px;
 	display: block;
 	float: left;
+	text-decoration: none;
 }
 a:hover {
 	background: #ee5f3c;
@@ -47,4 +53,9 @@ a:hover {
 }
 footer {
 	background: #808080;
+	text-align: center;
+}
+img {
+	height: 200px;
+	width: 150px;
 }
